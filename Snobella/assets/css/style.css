@@ -2,63 +2,328 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
 
-  body {
+body {
     font-family: Arial, sans-serif;
-  }
+}
 
-  .navbar {
+.navbar {
     display: flex;
+    height: 90px;
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
     background-color: white;
-  }
 
-  .logo {
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.logo {
     font-size: 24px;
     font-weight: bold;
-  }
+}
 
-  .search-box {
+.search-box {
     display: flex;
     align-items: center;
     background-color: #f6f8fb;
     padding: 10px 15px;
     border-radius: 8px;
     width: 400px;
-  }
+}
 
-  .search-box input {
+.search-box input {
     border: none;
     background: transparent;
     outline: none;
     width: 100%;
     font-size: 14px;
     color: #555;
-  }
+}
 
-  .search-box i {
+.search-box i {
     margin-left: 10px;
     color: #555;
-  }
+}
 
-  .nav-links {
+.nav-links {
     display: flex;
     gap: 25px;
     align-items: center;
-  }
+}
 
-  .nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
+
+.nav-links {
+    a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+    }
+
+    i {
+        font-size: 18px;
+    }
+}
+
+.section {
+    background-color: #FFE2E0;
+    height: 584px;
+}
+
+.section_first {
     display: flex;
     align-items: center;
-    gap: 6px;
-  }
+    justify-content: center;
+    gap: 30px;
+}
 
-  .nav-links i {
+.content {
+    max-width: 500px;
+
+}
+
+.discount {
+    color: #ff5252;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.description {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.shop-btn {
+    background-color: #216b50;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+.img_first {
+    width: 642px;
+    height: 535px;
+    left: 765px;
+    top: 130px;
+
+}
+
+/* .contain {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  } */
+.section_two {
+    padding: 100px;
+}
+h1{
+    margin-left: 100px;
+}
+
+.all_card {
+    padding: 30px;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 0 10px;
+    min-width: 300px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #4CAF50;
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.badge red{
+    background-color: #e74c3c;
+}
+
+
+
+
+.heart {
+    position: absolute;
+    top: 12px;
+    right: 12px;
     font-size: 18px;
+    color: #e74c3c;
+}
+
+.product-image {
+    width: 218px;
+    height: 243px;
+    top: 1369px;
+    left: 272px;
+    ;
+}
+
+.stars {
+    color: gold;
+    margin: 10px 0 5px;
+}
+
+.titles {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.descriptions {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #e74c3c;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.button {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    background: white;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left-arrow {
+    left: -20px;
+}
+
+.right-arrow {
+    right: -20px;
+}
+.section_third{
+    background-color: #FFF7F7;
+}
+.bestseller{
+    margin-left: 200px;
+}
+.site-footer {
+    background: #f8f8f8;
+    padding: 40px 0 20px 0;
+    margin-top: 40px;
+    padding: 150px 0;
+  }
+  .footer-main {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+   
+    margin: 0 auto;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  .footer-column {
+    min-width: 200px;
+  }
+  .footer-column h3 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  .footer-column ul {
+    padding: 0;
+    list-style: none;
+  }
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    color: #888;
+    font-size: 14px;
+    
+  }
+  .footer-social {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  
+  
+  .send-message {
+    margin-top: 10px;
+    padding: 8px 20px;
+    border: 1px solid #888;
+    background: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
   }
