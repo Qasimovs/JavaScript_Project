@@ -69,114 +69,19 @@
 
             </div>
         </section>
-        <section class="section_two">
-            <div style="margin: 20px 0;">
-                <input type="text" id="search" placeholder="Search..." />
-                <button id="search-btn">Search</button>
-              
-                <select id="sort">
-                  <option value="">Sort by</option>
-                  <option value="az">Name A-Z</option>
-                  <option value="za">Name Z-A</option>
-                  <option value="low-high">Price Low-High</option>
-                  <option value="high-low">Price High-Low</option>
-                </select>
-              </div>
-              
-            <h1>Featured Products</h1>
-
-            <div class="all_card">
-                <div class="card">
-                    <div class="badge">New</div>
-                    <div class="heart"><i class="fa-regular fa-heart"></i></div>
-                    <img class="product-image" src="./assets/image/img_2.png" alt="">
-                    <div class="stars">★★★★★</div>
-                    <div class="titles">Shoulder Bag Leather Bag Leather</div>
-                    <div class="descriptions">undertakes laborious physical physical</div>
-                    <div>
-                        <span class="price">$130.00</span>
-                        <span class="old-price">From $340.00</span>
-                    </div>
-                    <button class="button">Add to card</button>
+            <section class="products-section container my-5">
+                <h2 class="mb-4">Snobella</h2>
+                <div class="filter-controls mb-4">
+                    <select id="sortSelect" class="form-select w-auto">
+                        <option value="default">Sort by</option>
+                        <option value="name-asc">Name (A-Z)</option>
+                        <option value="name-desc">Name (Z-A)</option>
+                        <option value="price-low">Price (Low to High)</option>
+                        <option value="price-high">Price (High to Low)</option>
+                    </select>
                 </div>
-
-
-                <div class="card">
-                    <div class="badge red">30%</div>
-                    <div class="heart"><i class="fa-solid fa-heart" style="color: #d0161f;"></i></i></div>
-                    <img class="product-image" src="./assets/image/img_3.png" alt="">
-                    <div class="stars">★★★★★</div>
-                    <div class="titles">Shoulder Bag Leather Bag Leather</div>
-                    <div class="descriptions">undertakes laborious physical physical</div>
-                    <div>
-                        <span class="price">$130.00</span>
-                        <span class="old-price">From $340.00</span>
-                    </div>
-                    <button class="button">Add to card</button>
-                </div>
-
-
-                <div class="card">
-                    <div class="heart"><i class="fa-regular fa-heart"></i></div>
-                    <img class="product-image" src="./assets/image/img_4.png" alt="">
-                    <div class="stars">★★★★★</div>
-                    <div class="titles">Shoulder Bag Leather Bag Leather</div>
-                    <div class="descriptions">undertakes laborious physical physical</div>
-                    <div>
-                        <span class="price">$130.00</span>
-                        <span class="old-price">From $340.00</span>
-                    </div>
-                    <button class="button">Add to card</button>
-                </div>
-
-
-        </section>
-        <section class="section_third">
-            <h2 class="bestseller">Bestseller</h2>
-            <div class="all_card">
-                <div class="card">
-                    <div class="badge">New</div>
-                    <div class="heart"><i class="fa-regular fa-heart"></i></div>
-                    <img class="product-image" src="./assets/image/img_5.png" alt="">
-                    <div class="stars">★★★★★</div>
-                    <div class="titles">Shoulder Bag Leather Bag Leather</div>
-                    <div class="descriptions">undertakes laborious physical physical</div>
-                    <div>
-                        <span class="price">$130.00</span>
-                        <span class="old-price">From $340.00</span>
-                    </div>
-                    <button class="button">Add to card</button>
-                </div>
-
-
-                <div class="card">
-                    <div class="badge red">30%</div>
-                    <div class="heart"><i class="fa-solid fa-heart" style="color: #d0161f;"></i></i></div>
-                    <img class="product-image" src="./assets/image/img_6.png" alt="">
-                    <div class="stars">★★★★★</div>
-                    <div class="titles">Shoulder Bag Leather Bag Leather</div>
-                    <div class="descriptions">undertakes laborious physical physical</div>
-                    <div>
-                        <span class="price">$130.00</span>
-                        <span class="old-price">From $340.00</span>
-                    </div>
-                    <button class="button">Add to card</button>
-                </div>
-
-
-                <div class="card">
-                    <div class="heart"><i class="fa-regular fa-heart"></i></div>
-                    <img class="product-image" src="./assets/image/img_7.png" alt="">
-                    <div class="stars">★★★★★</div>
-                    <div class="titles">Shoulder Bag Leather Bag Leather</div>
-                    <div class="descriptions">undertakes laborious physical physical</div>
-                    <div>
-                        <span class="price">$130.00</span>
-                        <span class="old-price">From $340.00</span>
-                    </div>
-                    <button class="button">Add to card</button>
-                </div>
-        </section>
+                <div class="row" id="productsContainer"></div>
+            </section>
     </main>
     <footer>
         <div class="site-footer">

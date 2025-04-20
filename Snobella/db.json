@@ -1,58 +1,56 @@
-{
-    "products": [
-      {
-        "id": 1,
-        "name": "Shoulder Bag Leather",
-        "description": "Leather undertakes laborious physical work",
-        "price": 130,
-        "originalPrice": 340,
-        "tag": "New",
-        "image": "./assets/images/img_2.png"
-      },
-      {
-        "id": 2,
-        "name": "Backpack Travel",
-        "description": "Durable travel backpack",
-        "price": 89,
-        "originalPrice": 120,
-        "tag": "30x",
-        "image":"./assets/images/img_3.png"
-      },
-      {
-        "id": 3,
-        "name": "Wallet Leather",
-        "description": "Genuine leather wallet",
-        "price": 45,
-        "originalPrice": 60,
-        "tag": "30x",
-        "image": "./assets/images/img_4.png"
-      },
-      {
-        "id": 4,
-        "name": "Shoulder Bag Leather",
-        "description": "Shoulder Bag Leather Bag Leather ",
-        "price": 130,
-        "originalPrice": 340,
-        "tag": "New",
-        "image":"./assets/images/img_5.png"
-      },
-        {
-            "id": 5,
-            "name": "Backpack Travel",
-            "description": "Durable travel backpack",
-            "price": 89,
-            "originalPrice": 120,
-            "tag": "30x",
-            "image": "./assets/images/img_6.png"
-        },
-        {
-            "id": 6,
-            "name": "Wallet Leather",
-            "description": "Genuine leather wallet",
-            "price": 45,
-            "originalPrice": 60,
-            "tag": "30x",
-            "image": "./assets/images/img_7.png"
-        }
-    ]
+[
+  {
+    "id": "1",
+    "name": "Shoulder Bag Leather",
+    "description": "Leather undertakes laborious physical work",
+    "price": 130,
+    "originalPrice": 340,
+    "tag": "New",
+    "image": "./assets/images/img_2.png"
+  },
+  {
+    "id": "2",
+    "name": "Backpack Travel",
+    "description": "Durable travel backpack",
+    "price": 89,
+    "originalPrice": 120,
+    "tag": "30x",
+    "image": "./assets/images/img_3.png"
+  },
+  {
+    "id": "3",
+    "name": "Wallet Leather",
+    "description": "Genuine leather wallet",
+    "price": 45,
+    "originalPrice": 60,
+    "tag": "30x",
+    "image": "./assets/images/img_4.png"
+  },
+  {
+    "id": "4",
+    "name": "Shoulder Bag Leather",
+    "description": "Shoulder Bag Leather Bag Leather ",
+    "price": 130,
+    "originalPrice": 340,
+    "tag": "New",
+    "image": "./assets/images/img_5.png"
+  },
+  {
+    "id": "5",
+    "name": "Backpack Travel",
+    "description": "Durable travel backpack",
+    "price": 89,
+    "originalPrice": 120,
+    "tag": "30x",
+    "image": "./assets/images/img_6.png"
+  },
+  {
+    "id": "6",
+    "name": "Wallet Leather",
+    "description": "Genuine leather wallet",
+    "price": 45,
+    "originalPrice": 60,
+    "tag": "30x",
+    "image": "./assets/images/img_7.png"
   }
+]
