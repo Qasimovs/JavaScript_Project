@@ -43,7 +43,7 @@ function renderProducts(productArray) {
 
     const heart = document.createElement('div');
     heart.className = 'heart';
-    heart.textContent = product.liked ? '❤️' : '🤍';
+    heart.textContent = product.liked
     card.appendChild(heart);
 
     const img = document.createElement('img');
